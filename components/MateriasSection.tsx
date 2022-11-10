@@ -55,8 +55,13 @@ const MateriasSection = () => {
             Materias Conciliables
           </h2>
           <div className="flex flex-col md:flex-row flex-wrap">
-            {materias.map(({ title, image, types }) => (
-              <MateriaItem title={title} image={image} types={types} />
+            {materias.map(({ title, image, types }, index) => (
+              <MateriaItem
+                key={index}
+                title={title}
+                image={image}
+                types={types}
+              />
             ))}
           </div>
         </div>

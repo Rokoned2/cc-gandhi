@@ -66,9 +66,12 @@ const Header = () => {
           >
             Conciliación - Divorcio Rápido
           </Link>
-          <div className="w-full whitespace-nowrap px-2 py-2 bg-comp-primary hover:bg-[#cc0006d9] hover:text-white duration-300 transition-colors">
+          <Link
+            href="/conciliacion-con-poder"
+            className="w-full whitespace-nowrap px-2 py-2 bg-comp-primary hover:bg-[#cc0006d9] hover:text-white duration-300 transition-colors"
+          >
             Conciliación con Poder
-          </div>
+          </Link>
           <Link
             href="/contacto"
             className="w-full py-2 bg-comp-primary hover:bg-[#cc0006d9] hover:text-white duration-300 transition-colors"

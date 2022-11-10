@@ -5,7 +5,7 @@ import "swiper/css/pagination";
 
 const Banner = () => {
   return (
-    <div className="px-3 pb-3 mx-2 mb-4 bg-comp-primary">
+    <div className="px-3 pb-3 mb-4 bg-comp-primary">
       <h3 className="py-3 text-[1.1rem] md:text-[1.375rem] text-btn-primary text-center">
         " Especialistas en Contrataciones con el Estado,Empresas y Familia "
       </h3>
