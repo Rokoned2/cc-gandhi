@@ -8,7 +8,7 @@ import MateriasSection from "../components/MateriasSection";
 
 const Home: NextPage = () => {
   return (
-    <div className="font-montserrat">
+    <div className="mb-8 font-montserrat">
       <Head>
         <title>CENTRO DE CONCILIACIÓN GANDHI</title>
         <meta

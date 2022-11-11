@@ -33,49 +33,6 @@ const contacto = () => {
               </div>
             </div>
           </div>
-          <div className="w-full flex flex-col md:flex-row">
-            <div className="pl-2 py-5 lg:w-2/5 bg-comp-primary">
-              <p className="mb-4">Dirección:</p>
-              <b>OFICINA PRINCIPAL:</b>
-              <p>Jr. Industrial 376 - 1 - Ate</p>
-            </div>
-            <div className="lg:w-3/5">
-              <div className="flex flex-col mx-2 mt-2">
-                <h3 className="mb-3 text-xl text-center font-bold">
-                  Escríbenos
-                </h3>
-                <div className="mb-3 lg:flex">
-                  <div className="lg:mr-1 flex-1">
-                    <input
-                      placeholder="Nombre *"
-                      className="mb-5 lg:mb-1 py-3 pl-2 border-[1px] border-btn-primary w-full "
-                      type="text"
-                    />
-                    <input
-                      placeholder="Nombre *"
-                      className="mb-5 lg:mb-1 py-3 pl-2 border-[1px] border-btn-primary w-full "
-                      type="text"
-                    />
-                    <input
-                      placeholder="Nombre *"
-                      className="mb-5 lg:mb-0 py-3 pl-2 border-[1px] border-btn-primary w-full "
-                      type="text"
-                    />
-                  </div>
-                  <div className="flex-1">
-                    <input
-                      placeholder="Nombre *"
-                      className="mb-3 pt-3 pb-20 pl-2 border-[1px] border-btn-primary w-full h-full"
-                      type="text"
-                    />
-                  </div>
-                </div>
-                <button className="py-2 px-3 ml-auto bg-btn-primary text-white ">
-                  Enviar
-                </button>
-              </div>
-            </div>
-          </div>
           <Link
             target="_blank"
             href="https://www.google.com/maps/place/Centro+de+Conciliaci%C3%B3n+Gandhi+-+Ate+Vitarte+-+Divo/data=!3m1!4b1!4m2!3m1!1s0x9105c3f7c8394e7f:0xffb5ee73d6939f7a"

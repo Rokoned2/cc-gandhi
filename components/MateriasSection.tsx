@@ -45,10 +45,10 @@ const materias = [
 
 const MateriasSection = () => {
   return (
-    <div className="px-2 lg:px-0 max-w-[61.25rem] mx-auto">
+    <div className="pt-7 px-2 lg:px-0 max-w-[61.25rem] mx-auto">
       <div className="bg-comp-primary lg:bg-white flex flex-col">
         <div className="tracking-tight bg-[#FFFFFF33] mx-3 lg:mx-0 my-2">
-          <h2 className="mb-10 text-[1.6rem] border-b-[1px] mx-3 text-center font-bold">
+          <h2 className="mb-10 text-[1.6rem] border-b-[1px] mx-3 text-center font-bold uppercase">
             Materias Conciliables
           </h2>
           <div className="flex flex-col md:flex-row flex-wrap">

@@ -9,7 +9,7 @@ import google from "../images/google.svg";
 
 const Footer = () => {
   return (
-    <div className="bg-footer pt-1">
+    <div className="bg-footer pt-3">
       <div className="max-w-[61.25rem] mx-auto md:flex w-full">
         <div className="ml-4 pr-20 lg:w-3/5 text-white">
           <Link
