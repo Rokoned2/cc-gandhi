@@ -1,4 +1,6 @@
 import Head from "next/head";
+import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const contacto = () => {
@@ -72,6 +74,18 @@ const contacto = () => {
               </div>
             </div>
           </div>
+          <Link
+            target="_blank"
+            href="https://www.google.com/maps/place/Centro+de+Conciliaci%C3%B3n+Gandhi+-+Ate+Vitarte+-+Divo/data=!3m1!4b1!4m2!3m1!1s0x9105c3f7c8394e7f:0xffb5ee73d6939f7a"
+            className="my-5 h-72 relative w-full"
+          >
+            <Image
+              className="object-center object-cover w-full"
+              fill
+              alt="mapa de google maps de el centro de conciliación Gandhi"
+              src="https://drive.google.com/uc?id=1fvjX6ZxqxbxjKBysRfbBtb_yHPUBljyR"
+            />
+          </Link>
         </div>
       </div>
     </div>

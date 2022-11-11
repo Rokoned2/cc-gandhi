@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://centrodeconciliaciongandhi.vercel.app/
+
+# Sitemaps
+Sitemap: https://centrodeconciliaciongandhi.vercel.app/sitemap.xml

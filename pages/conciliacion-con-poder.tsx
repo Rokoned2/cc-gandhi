@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Image from "next/image";
 import React from "react";
 
 const conciliacionConPoder = () => {
@@ -28,10 +29,11 @@ const conciliacionConPoder = () => {
                     </p>
                   </div>
 
-                  <div className=" md:w-2/5">
-                    <img
-                      className="mx-auto w-full"
-                      src="https://static.wixstatic.com/media/88c70a6c8f23498ab418e155831327ee.jpg/v1/fill/w_296,h_157,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/88c70a6c8f23498ab418e155831327ee.jpg"
+                  <div className=" md:w-2/5 relative h-[10.75rem]">
+                    <Image
+                      fill
+                      className="mx-auto w-full object-cover"
+                      src="https://drive.google.com/uc?id=18uiq1-5JBoEvFTAmCfahQeFMt_gYcT--"
                       alt=""
                     />
                   </div>
@@ -77,18 +79,21 @@ const conciliacionConPoder = () => {
                       requerirá inscripción registral.
                     </p>
                   </div>
-                  <img
-                    className="mb-3 w-full mx-auto md:w-[16.25rem]"
-                    src="https://static.wixstatic.com/media/0e80c7ede69f4ff199b56a4b4391f77b.jpg/v1/fill/w_279,h_140,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/0e80c7ede69f4ff199b56a4b4391f77b.jpg"
-                    alt=""
-                  />
+                  <div className="mb-3  h-[10.75rem]  w-full mx-auto md:w-[16.25rem] relative">
+                    <Image
+                      fill
+                      className=" object-center"
+                      src="https://drive.google.com/uc?id=1pwpENjksEmE9SGcVFzt3GmyT5zDV0WFl"
+                      alt=""
+                    />
+                  </div>
                 </div>
                 <div className="px-3 py-6 md:text-[0.875rem] md:leading-[1.1rem] bg-white text-justify h-full tracking-tight flex-1">
                   <div className="mb-2 md:mb-7 text-center">
                     <h3 className=" text-[1.5rem] text-btn-primary tracking-tighter">
                       PODER DE PERSONAS NATURALES
                     </h3>
-                  a/div>
+                  </div>
                   <div></div>
                   <p className="mb-3">
                     En su poder tiene que estar consignadas literalmente las

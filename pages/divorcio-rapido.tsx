@@ -1,5 +1,6 @@
 import React from "react";
 import Head from "next/head";
+import Image from "next/image";
 
 const divorcioRapido = () => {
   return (
@@ -27,11 +28,12 @@ const divorcioRapido = () => {
                   civil, cumpliendo los requisitos que se expone a continuación.
                 </p>
                 <div className="mt-5 md:flex">
-                  <div className="mr-10 flex-1">
-                    <img
-                      className="w-full"
-                      src="https://static.wixstatic.com/media/f44544_246cc6c5766b4ce596c438901b72744d.jpeg/v1/fill/w_384,h_192,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/f44544_246cc6c5766b4ce596c438901b72744d.jpeg"
-                      alt=""
+                  <div className="md:mr-10 h-[10.75rem]  md:h-auto mx-auto flex-1 relative">
+                    <Image
+                      alt="Divorcio rapido"
+                      className="w-full  object-cover"
+                      fill
+                      src="https://drive.google.com/uc?id=1Jui_bEe5OQzvIfcPuODTZoSe_41Fvl66"
                     />
                   </div>
                   <div className="mt-2 flex-1">
@@ -87,11 +89,14 @@ const divorcioRapido = () => {
                       </li>
                     </ul>
                   </div>
-                  <img
-                    className="mb-3 w-full mx-auto md:w-[16.25rem]"
-                    src="https://static.wixstatic.com/media/f44544_d938e286045b4cc1a65061334d6dfc8c.jpg/v1/fill/w_261,h_195,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/f44544_d938e286045b4cc1a65061334d6dfc8c.jpg"
-                    alt=""
-                  />
+                  <div className="mb-4 mx-auto h-[10.75rem] md:w-[16.25rem] relative">
+                    <Image
+                      className="mb-3 w-full object-cover"
+                      fill
+                      src="https://drive.google.com/uc?id=19d_Cj-qufhSxgtH19EWTmeSt86JNMGTy"
+                      alt="acta de conciliacion para divorcio"
+                    />
+                  </div>
                   <div>
                     <p className="mb-3 font-bold ">
                       REQUISITOS DE SOLICITUD DE CONCILIACIÓN EXTRAJUDICIAL:
@@ -139,11 +144,14 @@ const divorcioRapido = () => {
                       repartirlos conforme a que ambos cónyuges acuerden.
                     </p>
                   </div>
-                  <img
-                    className="mb-3 md:w-[16.25rem] mx-auto w-full"
-                    src="https://static.wixstatic.com/media/f44544_dbd8aff7942a42b38b3b08579dc790c8.jpg/v1/fill/w_271,h_203,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/f44544_dbd8aff7942a42b38b3b08579dc790c8.jpg"
-                    alt=""
-                  />
+                  <div className="mb-3 h-[10.75rem] md:w-[16.25rem] mx-auto relative">
+                    <Image
+                      fill
+                      className="w-full object-cover"
+                      src="https://drive.google.com/uc?id=1ZUKQfQcy9Bk8UvLglH90QX22NLsPebvo"
+                      alt="liquidacion de bienes gananciales"
+                    />
+                  </div>
                   <div>
                     <p className="mb-3">
                       En esa liquidación los cónyuges tienen varias

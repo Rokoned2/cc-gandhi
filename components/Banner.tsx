@@ -1,7 +1,9 @@
 import React from "react";
+import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
+import { Pagination } from "swiper";
 
 const Banner = () => {
   return (
@@ -12,25 +14,131 @@ const Banner = () => {
       <Swiper
         className="max-w-[61.25rem] w-full"
         loop={true}
-        // modules={[Pagination]}
         pagination={true}
-        onSwiper={(swiper) => console.log(swiper)}
+        // onSwiper={(swiper) => console.log(swiper)}
       >
-        <SwiperSlide className="flex flex-col">
-          <img
-            src="https://chehadeabogados.com/wp-content/uploads/2018/12/lima.png"
-            className="bg-cover"
-          />
+        <SwiperSlide className=" flex-col flex">
+          <div className="h-[22.5rem] w-full relative">
+            <Image
+              priority
+              fill
+              className="object-cover"
+              alt="DESALOJO DE INMUEBLES"
+              src="https://drive.google.com/uc?id=1c4UKmPvH8wrm6TatoSXQIXR0kM9tSQPm"
+            />
+          </div>
           <div className="px-2 pt-2 pb-4 bg-white">
             <h5>DESALOJO DE INMUEBLES</h5>
             <p className="text-[0.8125rem]">Entrega de bienes/inmuebles</p>
           </div>
         </SwiperSlide>
         <SwiperSlide>
-          <img
-            src="https://chehadeabogados.com/wp-content/uploads/2018/12/larcomar.png"
-            className="bg-cover"
-          />
+          <div className="h-[22.5rem] w-full relative">
+            <Image
+              fill
+              className="object-cover"
+              src="https://drive.google.com/uc?id=1Lz15deg6YgmLPsu9moOnFABlrdiGxBRI"
+              alt="CONCILIACIONES CON EL ESTADO"
+            />
+          </div>
+          <div className="px-2 py-2 bg-white">
+            <h5>CONCILIACIONES CON EL ESTADO</h5>
+            <p className="text-[0.8125rem]">
+              Conciliamos con empresas, personas naturales y el Estado.
+            </p>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="h-[22.5rem] w-full relative">
+            <Image
+              src="https://drive.google.com/uc?id=1wjwUUCmfjHVJSDreXqMMOPFaYUfeD8wy"
+              alt="CONCILIACION PARA DIVORCIOS"
+              fill
+              className="object-cover"
+            />
+          </div>
+          <div className="px-2 py-2 bg-white">
+            <h5>CONCILIACION PARA DIVORCIOS</h5>
+            <p className="text-[0.8125rem]">
+              Tenencia y custodia, Régimen de Visitas y Alimentos
+            </p>
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide>
+          <div className="h-[22.5rem] w-full relative">
+            <Image
+              src="https://drive.google.com/uc?id=1yFy6i73VeP9AJRBj4Uuo_Xi0Skr_X4CM"
+              alt="INDEMNIZACIONES"
+              fill
+              className="object-cover"
+            />
+          </div>
+          <div className="px-2 py-2 bg-white">
+            <h5>INDEMNIZACIONES</h5>
+            <p className="text-[0.8125rem]">
+              Indemnización por daños y perjuicios
+            </p>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="h-[22.5rem] w-full relative">
+            <Image
+              src="https://drive.google.com/uc?id=15iaTt2_yz-YyXxkDHOIPMNfpDxt-Jgwm"
+              alt="REGIMEN DE VISITAS"
+              fill
+              className="object-cover"
+            />
+          </div>
+          <div className="px-2 py-2 bg-white">
+            <h5>REGIMEN DE VISITAS</h5>
+            <p className="text-[0.8125rem]"> </p>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="h-[22.5rem] w-full relative">
+            <Image
+              src="https://drive.google.com/uc?id=1bG4En6luqf0uFnsR2rIKcbnHUQ6rNScM"
+              alt="TENENCIA Y CUSTODIA"
+              fill
+              className="object-cover"
+            />
+          </div>
+          <div className="px-2 py-2 bg-white">
+            <h5>TENENCIA Y CUSTODIA</h5>
+            <p className="text-[0.8125rem]">
+              Somos especialistas en Derecho Familia
+            </p>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="h-[22.5rem] w-full relative">
+            <Image
+              src="https://drive.google.com/uc?id=1MwwQMQImV7mQoHEEgINgNSVJ0wb0nI2f"
+              alt="CONCILIACIONES CON EMPRESAS"
+              fill
+              className="object-cover"
+            />
+          </div>
+          <div className="px-2 py-2 bg-white">
+            <h5>CONCILIACIONES CON EMPRESAS</h5>
+            <p className="text-[0.8125rem]">Cobro de deudas</p>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="h-[22.5rem] w-full relative">
+            <Image
+              priority
+              src="https://drive.google.com/uc?id=1XOppaqE1DJfBuEZIpG-rKXERSuMaF4Qb"
+              alt="DIVISION Y PARTICION"
+              fill
+              className="object-cover"
+            />
+          </div>
+          <div className="px-2 py-2 bg-white">
+            <h5>DIVISIÓN Y PARTICIÓN</h5>
+            <p className="text-[0.8125rem]"> </p>
+          </div>
         </SwiperSlide>
       </Swiper>
     </div>

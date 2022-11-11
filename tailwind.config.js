@@ -26,7 +26,9 @@ module.exports = {
       lg: "960px",
       xl: "1200px",
     },
-    extend: {},
+    extend: {
+      display: ["last"],
+    },
     fontFamily: {
       montserrat: ["Montserrat", "sans-serif"],
     },

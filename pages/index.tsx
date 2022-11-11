@@ -11,6 +11,13 @@ const Home: NextPage = () => {
     <div className="font-montserrat">
       <Head>
         <title>CENTRO DE CONCILIACIÓN GANDHI</title>
+        <meta
+          name="description"
+          content="
+          Jr. Industrial 376 - 1 - Ate - Tel 994-393-724 Divorcios, Alimentos,
+          Tenencia, Pago de Deudas, Conciliaciones con el Estado
+        "
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Banner />
