@@ -9,13 +9,13 @@ const contacto = () => {
       <Head>
         <title>CONTACTO - CENTRO DE CONCILIACIÓN GANDHI</title>
       </Head>
-      <div className="w-full">
+      <div className="w-full mt-4">
         <div className="max-w-[61.25rem] mx-auto flex flex-col">
           <div className="w-full  flex flex-col md:flex-row">
             <div className="px-4 lg:w-2/5 items-center justify-between flex">
               <img
                 className="mx-auto w-full lg:w-auto"
-                src="https://static.wixstatic.com/media/f44544_2ea4cc89a5ee419e88e1b9432e4a6ae3.png/v1/fill/w_268,h_215,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/f44544_2ea4cc89a5ee419e88e1b9432e4a6ae3.png"
+                src="https://drive.google.com/uc?id=1QeA-RQXMzuklrkNw6anQwVZPxjfSaoXf"
                 alt=""
               />
             </div>

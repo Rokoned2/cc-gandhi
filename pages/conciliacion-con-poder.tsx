@@ -92,10 +92,7 @@ const conciliacionConPoder = () => {
                     />
                   </div>
                 </section>
-                <section
-                  id="#poder-de-personas-naturales"
-                  className="px-3 py-6 md:text-[0.875rem] md:leading-[1.1rem] bg-white text-justify h-full tracking-tight flex-1"
-                >
+                <div className="px-3 py-6 md:text-[0.875rem] md:leading-[1.1rem] bg-white text-justify h-full tracking-tight flex-1">
                   <div className="mb-2 md:mb-7 text-center">
                     <h3 className=" text-[1.5rem] text-btn-primary tracking-tighter">
                       PODER DE PERSONAS NATURALES
@@ -145,7 +142,7 @@ const conciliacionConPoder = () => {
                     expresamente otorgadas para conciliar, no requerirá
                     inscripción registral.
                   </p>
-                </section>
+                </div>
               </div>
             </div>
           </div>
