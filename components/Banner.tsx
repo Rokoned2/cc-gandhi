@@ -7,7 +7,7 @@ import { Pagination } from "swiper";
 
 const Banner = () => {
   return (
-    <div className="px-3 pb-3 mb-4 bg-comp-primary">
+    <div className="px-3 pb-3 my-4">
       <h3 className="py-3 text-[1.1rem] md:text-[1.375rem] text-btn-primary text-center">
         " Especialistas en Contrataciones con el Estado,Empresas y Familia "
       </h3>

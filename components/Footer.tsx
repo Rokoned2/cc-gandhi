@@ -24,7 +24,7 @@ const Footer = () => {
             Recomiéndanos
           </div>
         </div>
-        <div className="text-white lg:w-2/5">
+        <div className="p-4 text-white lg:w-2/5">
           <div className="mb-4">
             <p>
               <span className="font-bold">Atención: </span>
@@ -47,6 +47,9 @@ const Footer = () => {
           </p>
         </div>
       </div>
+      <p className="pt-4 pb-2 text-sm text-center">
+        © 2022 Centro de Conciliación M.C. Gandhi Vitarte | Desarrollado por{" "}
+      </p>
     </div>
   );
 };

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import logo from "../images/logo.png";
 import phone from "../images/phone.svg";
 import mapMarker from "../images/map-marker.svg";
@@ -7,6 +7,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 const Header = () => {
+  const [active, setActive] = useState(false);
   return (
     <div className="shadow-lg pb-2">
       <div className="py-1.5  bg-comp-primary shadow-lg  ">
@@ -29,7 +30,7 @@ const Header = () => {
           </div>{" "}
         </div>
       </div>
-      <div className="pb-4 h-40 md:h-48">
+      <div className="pb-4 max-h-96 md:h-48">
         <div className="px-6 pt-3 pb-4 justify-between md:justify-center flex relative">
           <div className="text-xs flex md:hidden flex-col items-center font-bold">
             ACEPTAMOS:
@@ -59,13 +60,20 @@ const Header = () => {
             </p>
             <p className="text-[0.7rem] font-black">"M.C. GANDHI VITARTE"</p>
           </Link>
-          <div className="h-[1.25rem] w-[1.375rem] justify-between flex-col flex md:hidden">
+          <div
+            onClick={() => setActive(!active)}
+            className="h-[1.25rem] w-[1.375rem] justify-between flex-col flex md:hidden"
+          >
             <div className="w-full h-[2px] bg-secondary"></div>
             <div className="w-full h-[2px] bg-secondary"></div>
             <div className="w-full h-[2px] bg-secondary"></div>
           </div>
         </div>
-        <div className="max-w-[61.25rem] text-[0.8rem] mx-auto mt-auto hidden md:flex duration-500 text-center divide-x">
+        <div
+          className={`mt-20 md:mt-0 max-w-[61.25rem] text-[0.8rem] mx-auto  flex flex-col md:flex-row duration-500 text-center md:divide-x transition-[max-height] overflow-hidden ${
+            active ? "max-h-80" : "max-h-0 md:max-h-full"
+          }`}
+        >
           <Link href="/" className="w-full py-2 bg-[#cc0006d9] text-white">
             Inicio
           </Link>
