@@ -31,6 +31,7 @@ const conciliacionConPoder = () => {
 
                   <div className=" md:w-2/5 relative h-[10.75rem]">
                     <Image
+                      priority
                       fill
                       className="mx-auto w-full object-cover"
                       src="https://drive.google.com/uc?id=18uiq1-5JBoEvFTAmCfahQeFMt_gYcT--"
@@ -40,7 +41,10 @@ const conciliacionConPoder = () => {
                 </div>
               </div>
               <div className="md:space-x-4 md:flex">
-                <div className="mb-8 md:mb-8 px-3 py-6 md:text-[0.875rem] md:leading-[1.1rem] bg-white h-full text-justify tracking-tight flex-1">
+                <section
+                  id="#poder-de-personas-juridicas"
+                  className="mb-8 md:mb-8 px-3 py-6 md:text-[0.875rem] md:leading-[1.1rem] bg-white h-full text-justify tracking-tight flex-1"
+                >
                   <div className="mb-2 md:mb-7 text-center">
                     <h3 className=" text-[1.5rem] text-btn-primary tracking-tighter">
                       PODER DE PERSONAS JURÍDICAS
@@ -87,8 +91,11 @@ const conciliacionConPoder = () => {
                       alt=""
                     />
                   </div>
-                </div>
-                <div className="px-3 py-6 md:text-[0.875rem] md:leading-[1.1rem] bg-white text-justify h-full tracking-tight flex-1">
+                </section>
+                <section
+                  id="#poder-de-personas-naturales"
+                  className="px-3 py-6 md:text-[0.875rem] md:leading-[1.1rem] bg-white text-justify h-full tracking-tight flex-1"
+                >
                   <div className="mb-2 md:mb-7 text-center">
                     <h3 className=" text-[1.5rem] text-btn-primary tracking-tighter">
                       PODER DE PERSONAS NATURALES
@@ -138,7 +145,7 @@ const conciliacionConPoder = () => {
                     expresamente otorgadas para conciliar, no requerirá
                     inscripción registral.
                   </p>
-                </div>
+                </section>
               </div>
             </div>
           </div>

@@ -30,6 +30,7 @@ const divorcioRapido = () => {
                 <div className="mt-5 md:flex">
                   <div className="md:mr-10 h-[10.75rem]  md:h-auto mx-auto flex-1 relative">
                     <Image
+                      priority
                       alt="Divorcio rapido"
                       className="w-full  object-cover"
                       fill
@@ -59,7 +60,10 @@ const divorcioRapido = () => {
                 </div>
               </div>
               <div className="md:space-x-4 md:flex">
-                <div className="mb-8 md:mb-8 px-3 py-6 md:text-[0.875rem] md:leading-[1.1rem] bg-white h-full text-justify tracking-tight flex-1">
+                <section
+                  id="#acta-de-conciliacion-para-divorcio"
+                  className="mb-8 md:mb-8 px-3 py-6 md:text-[0.875rem] md:leading-[1.1rem] bg-white h-full text-justify tracking-tight flex-1"
+                >
                   <div className="mb-2 md:mb-7 text-center">
                     <h3 className=" text-[1.5rem] text-btn-primary tracking-tighter">
                       Acta de Conciliación para Divorcio
@@ -124,8 +128,11 @@ const divorcioRapido = () => {
                       un Centro de Salud Público o Privado (enfermedad).
                     </div>
                   </div>
-                </div>
-                <div className="px-3 py-6 md:text-[0.875rem] md:leading-[1.1rem] bg-white text-justify h-full tracking-tight flex-1">
+                </section>
+                <section
+                  id="#liquidacion-de-bienes-gananciales"
+                  className="px-3 py-6 md:text-[0.875rem] md:leading-[1.1rem] bg-white text-justify h-full tracking-tight flex-1"
+                >
                   <div className="mb-2 md:mb-7 text-center">
                     <h3 className=" text-[1.5rem] text-btn-primary tracking-tighter">
                       Liquidación de Bienes Gananciales
@@ -186,7 +193,7 @@ const divorcioRapido = () => {
                       tipo de liquidación y el número de bienes a liquidar.
                     </p>
                   </div>
-                </div>
+                </section>
               </div>
             </div>
           </div>

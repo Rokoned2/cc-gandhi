@@ -14,6 +14,7 @@ module.exports = {
         secondary: "#8C9296",
       },
       white: "#fff",
+      black: "#000",
       btn: {
         primary: "#CC0006",
         hover: "#3F7652",

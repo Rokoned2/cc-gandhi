@@ -8,7 +8,7 @@ const materiasConciliables = () => {
       <Head>
         <title>DIVORCIO RAPIDO - CENTRO DE CONCILIACIÓN GANDHI</title>
       </Head>
-      <div className="">
+      <div className="mb-10">
         <MateriasSection />
       </div>
     </div>

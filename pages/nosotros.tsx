@@ -7,11 +7,11 @@ const nosotros = () => {
       <Head>
         <title>NOSOTROS - CENTRO DE CONCILIACION GANDHI</title>
       </Head>
-      <div className="pt-8 font-montserrat px-4 tracking-tight  max-w-[61.25rem] mx-auto">
+      <div className="py-8 font-montserrat px-4 tracking-tight  max-w-[61.25rem] mx-auto">
         <h3 className="pb-4 text-[1.8rem] text-btn-primary md:text-center">
           Nosotros
         </h3>
-        <div className="max-w-[] flex flex-col md:flex-row">
+        <div className=" flex flex-col md:flex-row">
           <div className="h-auto w-full md:w-1/3 md:pr-5">
             <img
               className=" mb-6 p-2 bg-comp-secondary mx-auto h-auto w-full rounded"
@@ -25,14 +25,13 @@ const nosotros = () => {
                 El
                 <span className="font-bold">
                   {" "}
-                  Centro de Conciliación Perú - Javier Prado
+                  Centro de Conciliación M.C. Gandhi Vitarte
                 </span>
-                , es una asociación sin fines de lucro, creada por la CÁMARA
-                PERUANA DE CIENCIAS E INNOVACIÓN JURÍDICA, destinada a promover
-                una cultura de paz y cuyo objetivo fundamental es la de prestar
-                servicios en el área de medios alternativos de solución de
-                conflictos; estamos debidamente autorizados, mediante resolución
-                Directoral 008-2015-JUS/DGDPAJ por el Ministerio de Justicia.
+                , es una asociación destinada a promover una cultura de paz y
+                cuyo objetivo fundamental es la de prestar servicios en el área
+                de medios alternativos de solución de conflictos; estamos
+                debidamente autorizados, mediante resolución Directoral
+                008-2015-JUS/DGDPAJ por el Ministerio de Justicia.
               </p>
               <p className="mb-2">
                 Somos un Centro de Conciliación líder e innovador atendido por

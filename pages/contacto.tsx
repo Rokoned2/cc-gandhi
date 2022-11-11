@@ -40,8 +40,10 @@ const contacto = () => {
               <p>Jr. Industrial 376 - 1 - Ate</p>
             </div>
             <div className="lg:w-3/5">
-              <div className="flex flex-col mx-2">
-                <h3 className="text-xl text-center font-bold">Escríbenos</h3>
+              <div className="flex flex-col mx-2 mt-2">
+                <h3 className="mb-3 text-xl text-center font-bold">
+                  Escríbenos
+                </h3>
                 <div className="mb-3 lg:flex">
                   <div className="lg:mr-1 flex-1">
                     <input
